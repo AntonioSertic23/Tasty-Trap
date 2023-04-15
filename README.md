@@ -30,6 +30,7 @@ Stranica prikazuje sva naučena znanja o korišenju **Wordpress** tehnologijom k
 - pregledati vijesti
 - pregledati istaknute zaposlenike i njihove priče
 - pronaći lokacije na karti
+- pretažiti stranicu
 
 ---
 
