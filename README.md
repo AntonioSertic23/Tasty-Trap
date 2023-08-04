@@ -1,47 +1,47 @@
 # Tasty Trap
 
-## Wordpress tema za fast food
+## WordPress Theme for Fast Food
 
-Projekt Tasty Trap je nastao na faksu kao projekt za konstrukcijske vježbe iz predmeta **CMS sustavi**.
+The Tasty Trap project originated in college as an assignment for the subject **CMS Systems**.
 
-Tema projekta je bila kreirati wordpress temu za fast food koristeći custom post type-ove, taksonomije i custom meta box-ove.
+The project's theme was to create a WordPress theme for a fast-food restaurant, utilizing custom post types, taxonomies, and custom meta-boxes.
 
-Stranica prikazuje sva naučena znanja o korišenju **Wordpress** tehnologijom koja koristi **PHP** programski jezik i **MySQL** za bazu podataka.
+The website showcases all the knowledge acquired about using **WordPress**, which utilizes **PHP** programming language and **MySQL** for the database.
 
 [![My Skills](https://skills.thijs.gg/icons?i=wordpress,php,mysql)](https://skills.thijs.gg)
 
 ---
 
-### Administrativno sučelje
+### Administrative Interface
 
-- cpt **Meni** sadrži cpt **Hrana** i cpt **Piće** povezanih preko custom meta box-ova
-- cpt **Hrana** i **Piće** imaju svoje custom meta box-ove koji su nutritivne vrijednosti te se u prikazu menija one zbrajaju
-- tu su još **Zaposlenik**, **Restoran** i **Vijest** cpt-ovi sa svojim custom meta box-ovima
-- svaki cpt također ima i svoju jedinstvenu taksonomiju
-- korišten je i plugin **MetaSlider**, za prikaz zaposlenika u obliku slidera
-
----
-
-### Na starnici je moguće:
-
-- pregledati menije, njihovu hranu i pića
-- pregledati hranu sortiranu po taksonomiji
-- pregledati pića sortirana po taksonomiji
-- pregledati vijesti
-- pregledati istaknute zaposlenike i njihove priče
-- pronaći lokacije na karti
-- pretažiti stranicu
+- The **Menu** custom post type includes **Food** and **Beverage** custom post types connected via custom meta-boxes.
+- **Food** and **Beverage** have their own custom meta-boxes displaying nutritional values, which are summed up in the menu display.
+- There are also **Employee**, **Restaurant**, and **News** custom post types, each with their custom meta-boxes.
+- Each custom post type has its unique taxonomy.
+- The **MetaSlider** plugin is used to display employees in a slider format.
 
 ---
 
-## Pokretanje projekta
+### On the website, you can:
 
-Potrebno je instalirati [XAMPP](https://www.apachefriends.org), te preko toga pokrenuti **Apache** i **MySQL**.
+- Browse through menus, their food, and beverages.
+- View food items sorted by taxonomy.
+- View beverages sorted by taxonomy.
+- Read news articles.
+- Explore featured employees and their stories.
+- Find locations on the map.
+- Search the website.
 
-Potom zalijepiti mapu **Tasty-Trap** u `C:\xampp\htdocs\` i promjeniti joj ime u `TastyTrap`.
+---
 
-Link za pristup bazi: [http://localhost/phpmyadmin/index.php](http://localhost/phpmyadmin/index.php).
+## Project Setup
 
-Zatim u **phpmyadmin** kreirati bazu koja se zove `tastytrap`(Character Set neka bude **Collation**) te potom importati `tastytrap.sql` koji se nalazi ovdje u root-u projekta.
+You need to install [XAMPP](https://www.apachefriends.org) and run **Apache** and **MySQL** through it.
 
-Link za pristup aplikaciji: [http://localhost/TastyTrap/wp-admin/](http://localhost/TastyTrap/wp-admin/).
+Then, paste the **Tasty-Trap** folder into `C:\xampp\htdocs\` and rename it to `TastyTrap`.
+
+Link to access the database: [http://localhost/phpmyadmin/index.php](http://localhost/phpmyadmin/index.php).
+
+In **phpMyAdmin**, create a database named `tastytrap` (Character Set should be **Collation**), and then import `tastytrap.sql` located in the project's root.
+
+Link to access the application: [http://localhost/TastyTrap/wp-admin/](http://localhost/TastyTrap/wp-admin/).
