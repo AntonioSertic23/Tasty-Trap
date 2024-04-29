@@ -8,7 +8,7 @@ The project's theme was to create a WordPress theme for a fast-food restaurant, 
 
 The website showcases all the knowledge acquired about using **WordPress**, which utilizes **PHP** programming language and **MySQL** for the database.
 
-[![My Skills](https://skills.thijs.gg/icons?i=wordpress,php,mysql)](https://skills.thijs.gg)
+[![My Skills](https://skillicons.dev/icons?i=wordpress,php,mysql)](https://skillicons.dev)
 
 ---
 
